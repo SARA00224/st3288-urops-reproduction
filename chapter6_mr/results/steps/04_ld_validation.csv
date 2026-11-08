@@ -1,0 +1,3 @@
+"protein","target_snp","proxy_snp","target_ea","proxy_ea","EUR_n","API_r2","D","signed_haplotype_r","haplotype_r2","signed_dosage_r","dosage_r2","threshold","passed","source_url"
+"IL23R","rs11581607","rs80174646","A","T",503,0.920472,0.0575256216182033,0.959412212541877,0.9204717935745,0.959353167934699,0.920358500826343,0.8,TRUE,"https://grch37.rest.ensembl.org/ld/human/pairwise/rs11581607/rs80174646?population_name=1000GENOMES%3Aphase_3%3AEUR;content-type=application/json"
+"RSPO3","rs2489623","rs2503322","C","G",503,0.938008,0.242092178539103,0.968571615225465,0.938130973820467,0.963177698839291,0.927711279541352,0.8,TRUE,"https://grch37.rest.ensembl.org/ld/human/pairwise/rs2489623/rs2503322?population_name=1000GENOMES%3Aphase_3%3AEUR;content-type=application/json"

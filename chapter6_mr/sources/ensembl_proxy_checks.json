@@ -1,0 +1,171 @@
+{
+  "IL23R_LD": {
+    "url": "https://grch37.rest.ensembl.org/ld/human/pairwise/rs11581607/rs80174646?population_name=1000GENOMES%3Aphase_3%3AEUR;content-type=application/json",
+    "data": [
+      {
+        "r2": "0.920472",
+        "d_prime": "1.000000",
+        "population_name": "1000GENOMES:phase_3:EUR",
+        "variation2": "rs80174646",
+        "variation1": "rs11581607"
+      }
+    ]
+  },
+  "RSPO3_LD": {
+    "url": "https://grch37.rest.ensembl.org/ld/human/pairwise/rs2489623/rs2503322?population_name=1000GENOMES%3Aphase_3%3AEUR;content-type=application/json",
+    "data": [
+      {
+        "population_name": "1000GENOMES:phase_3:EUR",
+        "r2": "0.938008",
+        "variation2": "rs2503322",
+        "variation1": "rs2489623",
+        "d_prime": "0.995845"
+      }
+    ]
+  },
+  "IL23R_MAP": {
+    "url": "https://grch37.rest.ensembl.org/variation/human/rs11581607?content-type=application/json",
+    "data": {
+      "most_severe_consequence": "intron_variant",
+      "minor_allele": "A",
+      "evidence": [
+        "Frequency",
+        "1000Genomes",
+        "Cited",
+        "Phenotype_or_Disease",
+        "TOPMed",
+        "gnomAD"
+      ],
+      "name": "rs11581607",
+      "synonyms": [],
+      "MAF": 0.022764,
+      "var_class": "SNP",
+      "source": "Variants (including SNPs and indels) imported from dbSNP",
+      "ambiguity": "R",
+      "mappings": [
+        {
+          "start": 67707690,
+          "ancestral_allele": "G",
+          "assembly_name": "GRCh37",
+          "allele_string": "G/A",
+          "end": 67707690,
+          "seq_region_name": "1",
+          "strand": 1,
+          "coord_system": "chromosome",
+          "location": "1:67707690-67707690"
+        }
+      ]
+    }
+  },
+  "IL23R_PROXY_MAP": {
+    "url": "https://grch37.rest.ensembl.org/variation/human/rs80174646?content-type=application/json",
+    "data": {
+      "source": "Variants (including SNPs and indels) imported from dbSNP",
+      "var_class": "SNP",
+      "synonyms": [],
+      "name": "rs80174646",
+      "ambiguity": "K",
+      "MAF": 0.035343,
+      "most_severe_consequence": "intron_variant",
+      "minor_allele": "T",
+      "evidence": [
+        "Frequency",
+        "1000Genomes",
+        "Cited",
+        "Phenotype_or_Disease",
+        "TOPMed",
+        "gnomAD"
+      ],
+      "mappings": [
+        {
+          "location": "1:67708155-67708155",
+          "start": 67708155,
+          "coord_system": "chromosome",
+          "end": 67708155,
+          "strand": 1,
+          "allele_string": "G/T",
+          "assembly_name": "GRCh37",
+          "ancestral_allele": "G",
+          "seq_region_name": "1"
+        }
+      ]
+    }
+  },
+  "RSPO3_MAP": {
+    "url": "https://grch37.rest.ensembl.org/variation/human/rs2489623?content-type=application/json",
+    "data": {
+      "var_class": "SNP",
+      "source": "Variants (including SNPs and indels) imported from dbSNP",
+      "synonyms": [
+        "rs57491728",
+        "rs111193416",
+        "rs17811847",
+        "rs61267296"
+      ],
+      "name": "rs2489623",
+      "ambiguity": "M",
+      "most_severe_consequence": "intron_variant",
+      "MAF": 0.443091,
+      "mappings": [
+        {
+          "start": 127455821,
+          "location": "6:127455821-127455821",
+          "coord_system": "chromosome",
+          "seq_region_name": "6",
+          "ancestral_allele": "C",
+          "assembly_name": "GRCh37",
+          "strand": 1,
+          "allele_string": "A/C",
+          "end": 127455821
+        }
+      ],
+      "evidence": [
+        "Frequency",
+        "1000Genomes",
+        "Cited",
+        "Phenotype_or_Disease",
+        "TOPMed",
+        "gnomAD"
+      ],
+      "minor_allele": "A"
+    }
+  },
+  "RSPO3_PROXY_MAP": {
+    "url": "https://grch37.rest.ensembl.org/variation/human/rs2503322?content-type=application/json",
+    "data": {
+      "var_class": "SNP",
+      "source": "Variants (including SNPs and indels) imported from dbSNP",
+      "mappings": [
+        {
+          "seq_region_name": "6",
+          "allele_string": "A/G/T",
+          "end": 127457260,
+          "location": "6:127457260-127457260",
+          "coord_system": "chromosome",
+          "strand": 1,
+          "ancestral_allele": "G",
+          "start": 127457260,
+          "assembly_name": "GRCh37"
+        }
+      ],
+      "ambiguity": "D",
+      "name": "rs2503322",
+      "synonyms": [
+        "rs57677238",
+        "rs56572860",
+        "rs17755508"
+      ],
+      "MAF": 0.441693,
+      "minor_allele": "A",
+      "evidence": [
+        "Frequency",
+        "1000Genomes",
+        "Cited",
+        "Phenotype_or_Disease",
+        "TOPMed",
+        "gnomAD"
+      ],
+      "most_severe_consequence": "intron_variant"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+.Rhistory
+.RData
+.Rproj.user/
+chapter6_mr/data/raw/
+chapter6_mr/data/.tmp/
+chapter6_mr/data/*.rds

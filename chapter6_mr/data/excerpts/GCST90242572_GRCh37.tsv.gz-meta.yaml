@@ -1,0 +1,30 @@
+# Study meta-data
+gwas_id: GCST90242572
+gwas_catalog_api: https://www.ebi.ac.uk/gwas/rest/api/studies/GCST90242572
+date_metadata_last_modified: 2025-01-02
+
+# Trait Information
+trait_description:
+  - R-spondin-3 levels (RSPO3.13094.75.3)
+ontology_mapping:
+  - EFO_0021878
+
+# Genotyping Information
+genome_assembly: GRCh37
+genotyping_technology:
+  - Genome-wide genotyping array
+
+# Sample Information
+samples:
+  - sample_ancestry_category:
+      - European
+    sample_size: 3301
+
+# Summary Statistic information
+data_file_name: GCST90242572_GRCh37.tsv.gz
+file_type: pre-GWAS-SSF
+data_file_md5sum: 21ee3fc2b43d8291430b0c72ce4c2af6
+
+# Harmonization status
+is_harmonised: false
+is_sorted: false
