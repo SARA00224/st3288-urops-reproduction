@@ -1,3 +1,0 @@
-Exposure,Outcome,ID_outcome,Method,Beta,SE,P_value,source_sheet,source_excel_row
-IL23R,Crohn's disease || id:12,12,WR,1.83896428571429,0.0707459333371429,5.80114354300137e-149,TableS7.cis-only-coloc,60
-RSPO3,Crohn's disease || id:12,12,WR,0.242606296296296,0.0446565997122222,5.55049876784864e-08,TableS7.cis-only-coloc,97

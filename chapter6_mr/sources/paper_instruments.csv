@@ -1,3 +1,0 @@
-Exposure,Platform_id,Study,SNP,CHR_SNP,POS_SNP,Effect_allele,Other_allele,Effect_allele_freq,Beta,SE,P_value,Sample_size,Type,source_sheet,source_excel_row
-IL23R,IL23R.5088.175.3,Sun,rs11581607,1,67707690,A,G,0.066948,-0.42,0.0491,1.2e-17,3301,Tier1,TableS1.Instruments,1021
-RSPO3,RSPO3.13094.75.3,Sun,rs2489623,6,127455821,C,A,0.534679,0.27,0.0245,3.6e-28,3301,Tier1,TableS1.Instruments,1712
