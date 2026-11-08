@@ -1,4 +1,4 @@
-# Run both chapters in separate R sessions using the normal R library search path.
+# Run both experiments in separate R sessions using the normal R library search path.
 args <- commandArgs(trailingOnly = TRUE)
 if (length(args) > 1L || (length(args) == 1L && args != "--full")) {
   stop("Usage: Rscript --vanilla run_all.R [--full]")
@@ -14,10 +14,10 @@ if (length(missing)) stop("Install the packages listed in README.md. Missing: ",
 
 Sys.setenv(MR_INPUT_MODE = if (length(args)) "full" else "excerpt")
 rscript <- file.path(R.home("bin"), "Rscript")
-entries <- c("chapter3_simulation/run_all.R", "chapter6_mr/run_mr.R")
+entries <- c("section5_1_simulation/run_all.R", "section5_2_mr/run_mr.R")
 for (entry in entries) {
   message("Running ", entry)
   status <- system2(rscript, c("--vanilla", shQuote(file.path(root, entry))))
   if (status != 0L) stop(entry, " exited with status ", status)
 }
-message("Both chapters completed. See their results directories.")
+message("Both experiments completed. See their results directories.")

@@ -1,0 +1,7 @@
+protein,dataset_id,file,decompressed_line,role,chromosome,position,matched_snp
+IL23R,GCST90241623,GCST90241623_GRCh37.tsv.gz,3995932,original_exposure,1,67707690,rs11581607
+IL23R,GCST90241623,GCST90241623_GRCh37.tsv.gz,3995935,sensitivity_exposure,1,67708155,rs80174646
+RSPO3,GCST90242572,GCST90242572_GRCh37.tsv.gz,8739277,original_exposure,6,127455821,rs2489623
+RSPO3,GCST90242572,GCST90242572_GRCh37.tsv.gz,8739285,sensitivity_exposure,6,127457260,rs2503322
+IL23R,ieu-a-12,ieu-a-12.vcf.gz,2943,proxy_outcome,1,67708155,rs80174646
+RSPO3,ieu-a-12,ieu-a-12.vcf.gz,60055,proxy_outcome,6,127457260,rs2503322
